@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4455E9D5CD6956EB299E45F5 /* libPods-CGPractice.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AC65C82F3CBFB66A1E2B0FF7 /* libPods-CGPractice.a */; };
 		4F58892121AE49980069157F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F58892021AE49980069157F /* AppDelegate.m */; };
 		4F58892421AE49980069157F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F58892321AE49980069157F /* ViewController.m */; };
 		4F58892721AE49980069157F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F58892521AE49980069157F /* Main.storyboard */; };
@@ -15,6 +16,14 @@
 		4F58892F21AE499B0069157F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F58892E21AE499B0069157F /* main.m */; };
 		4F58893921AE499B0069157F /* CGPracticeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F58893821AE499B0069157F /* CGPracticeTests.m */; };
 		4F58894421AE499B0069157F /* CGPracticeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F58894321AE499B0069157F /* CGPracticeUITests.m */; };
+		4F8AAAD621AE67E6008C795B /* RectanglesController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F8AAAD521AE67E6008C795B /* RectanglesController.m */; };
+		4F8AAADA21AE6B09008C795B /* RectangleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F8AAAD921AE6B09008C795B /* RectangleView.m */; };
+		4F8AAADD21AF885A008C795B /* PathView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F8AAADC21AF885A008C795B /* PathView.m */; };
+		4F8AAAE021AF8885008C795B /* PathController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F8AAADF21AF8885008C795B /* PathController.m */; };
+		4F8AAAE321AFDF8C008C795B /* EffectController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F8AAAE221AFDF8C008C795B /* EffectController.m */; };
+		4F8AAAE621AFDFC6008C795B /* EffectView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F8AAAE521AFDFC6008C795B /* EffectView.m */; };
+		4F8AAAE921B0D307008C795B /* TransparentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F8AAAE821B0D307008C795B /* TransparentView.m */; };
+		4F8AAAEC21B0D32A008C795B /* TransparentController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F8AAAEB21B0D32A008C795B /* TransparentController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +60,25 @@
 		4F58893F21AE499B0069157F /* CGPracticeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CGPracticeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F58894321AE499B0069157F /* CGPracticeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CGPracticeUITests.m; sourceTree = "<group>"; };
 		4F58894521AE499B0069157F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F8AAAD421AE67E6008C795B /* RectanglesController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RectanglesController.h; sourceTree = "<group>"; };
+		4F8AAAD521AE67E6008C795B /* RectanglesController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RectanglesController.m; sourceTree = "<group>"; };
+		4F8AAAD821AE6B09008C795B /* RectangleView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RectangleView.h; sourceTree = "<group>"; };
+		4F8AAAD921AE6B09008C795B /* RectangleView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RectangleView.m; sourceTree = "<group>"; };
+		4F8AAADB21AF885A008C795B /* PathView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PathView.h; sourceTree = "<group>"; };
+		4F8AAADC21AF885A008C795B /* PathView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PathView.m; sourceTree = "<group>"; };
+		4F8AAADE21AF8885008C795B /* PathController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PathController.h; sourceTree = "<group>"; };
+		4F8AAADF21AF8885008C795B /* PathController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PathController.m; sourceTree = "<group>"; };
+		4F8AAAE121AFDF8C008C795B /* EffectController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EffectController.h; sourceTree = "<group>"; };
+		4F8AAAE221AFDF8C008C795B /* EffectController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EffectController.m; sourceTree = "<group>"; };
+		4F8AAAE421AFDFC6008C795B /* EffectView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EffectView.h; sourceTree = "<group>"; };
+		4F8AAAE521AFDFC6008C795B /* EffectView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EffectView.m; sourceTree = "<group>"; };
+		4F8AAAE721B0D307008C795B /* TransparentView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TransparentView.h; sourceTree = "<group>"; };
+		4F8AAAE821B0D307008C795B /* TransparentView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TransparentView.m; sourceTree = "<group>"; };
+		4F8AAAEA21B0D32A008C795B /* TransparentController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TransparentController.h; sourceTree = "<group>"; };
+		4F8AAAEB21B0D32A008C795B /* TransparentController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TransparentController.m; sourceTree = "<group>"; };
+		9CBAAA084B4746EC45ADFD8B /* Pods-CGPractice.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CGPractice.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CGPractice/Pods-CGPractice.debug.xcconfig"; sourceTree = "<group>"; };
+		9FA0C39E8F43996464F69864 /* Pods-CGPractice.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CGPractice.release.xcconfig"; path = "Pods/Target Support Files/Pods-CGPractice/Pods-CGPractice.release.xcconfig"; sourceTree = "<group>"; };
+		AC65C82F3CBFB66A1E2B0FF7 /* libPods-CGPractice.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CGPractice.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4455E9D5CD6956EB299E45F5 /* libPods-CGPractice.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +114,8 @@
 				4F58893721AE499B0069157F /* CGPracticeTests */,
 				4F58894221AE499B0069157F /* CGPracticeUITests */,
 				4F58891D21AE49980069157F /* Products */,
+				CC043259B527B63B9E88CC97 /* Pods */,
+				591DFB5A1161291020A8847A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +132,7 @@
 		4F58891E21AE49980069157F /* CGPractice */ = {
 			isa = PBXGroup;
 			children = (
+				4F8AAAD721AE6AE1008C795B /* Views */,
 				4F58891F21AE49980069157F /* AppDelegate.h */,
 				4F58892021AE49980069157F /* AppDelegate.m */,
 				4F58892221AE49980069157F /* ViewController.h */,
@@ -110,6 +142,14 @@
 				4F58892A21AE499B0069157F /* LaunchScreen.storyboard */,
 				4F58892D21AE499B0069157F /* Info.plist */,
 				4F58892E21AE499B0069157F /* main.m */,
+				4F8AAAD421AE67E6008C795B /* RectanglesController.h */,
+				4F8AAAD521AE67E6008C795B /* RectanglesController.m */,
+				4F8AAADE21AF8885008C795B /* PathController.h */,
+				4F8AAADF21AF8885008C795B /* PathController.m */,
+				4F8AAAE121AFDF8C008C795B /* EffectController.h */,
+				4F8AAAE221AFDF8C008C795B /* EffectController.m */,
+				4F8AAAEA21B0D32A008C795B /* TransparentController.h */,
+				4F8AAAEB21B0D32A008C795B /* TransparentController.m */,
 			);
 			path = CGPractice;
 			sourceTree = "<group>";
@@ -132,6 +172,38 @@
 			path = CGPracticeUITests;
 			sourceTree = "<group>";
 		};
+		4F8AAAD721AE6AE1008C795B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4F8AAAD821AE6B09008C795B /* RectangleView.h */,
+				4F8AAAD921AE6B09008C795B /* RectangleView.m */,
+				4F8AAADB21AF885A008C795B /* PathView.h */,
+				4F8AAADC21AF885A008C795B /* PathView.m */,
+				4F8AAAE421AFDFC6008C795B /* EffectView.h */,
+				4F8AAAE521AFDFC6008C795B /* EffectView.m */,
+				4F8AAAE721B0D307008C795B /* TransparentView.h */,
+				4F8AAAE821B0D307008C795B /* TransparentView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		591DFB5A1161291020A8847A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AC65C82F3CBFB66A1E2B0FF7 /* libPods-CGPractice.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CC043259B527B63B9E88CC97 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9CBAAA084B4746EC45ADFD8B /* Pods-CGPractice.debug.xcconfig */,
+				9FA0C39E8F43996464F69864 /* Pods-CGPractice.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,6 +211,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4F58894821AE499B0069157F /* Build configuration list for PBXNativeTarget "CGPractice" */;
 			buildPhases = (
+				C4201306A376123221D76B56 /* [CP] Check Pods Manifest.lock */,
 				4F58891821AE49980069157F /* Sources */,
 				4F58891921AE49980069157F /* Frameworks */,
 				4F58891A21AE49980069157F /* Resources */,
@@ -257,14 +330,47 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		C4201306A376123221D76B56 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CGPractice-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4F58891821AE49980069157F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				4F58892421AE49980069157F /* ViewController.m in Sources */,
+				4F8AAAE021AF8885008C795B /* PathController.m in Sources */,
+				4F8AAAD621AE67E6008C795B /* RectanglesController.m in Sources */,
+				4F8AAAE621AFDFC6008C795B /* EffectView.m in Sources */,
+				4F8AAADA21AE6B09008C795B /* RectangleView.m in Sources */,
+				4F8AAAE921B0D307008C795B /* TransparentView.m in Sources */,
+				4F8AAADD21AF885A008C795B /* PathView.m in Sources */,
 				4F58892F21AE499B0069157F /* main.m in Sources */,
+				4F8AAAE321AFDF8C008C795B /* EffectController.m in Sources */,
 				4F58892121AE49980069157F /* AppDelegate.m in Sources */,
+				4F8AAAEC21B0D32A008C795B /* TransparentController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,16 +539,18 @@
 		};
 		4F58894921AE499B0069157F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CBAAA084B4746EC45ADFD8B /* Pods-CGPractice.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 53XMQ3SUNV;
 				INFOPLIST_FILE = CGPractice/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.liukai.CGPractice.CGPractice;
+				PRODUCT_BUNDLE_IDENTIFIER = com.liukai.iosRoad.CGPractice;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -450,16 +558,18 @@
 		};
 		4F58894A21AE499B0069157F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FA0C39E8F43996464F69864 /* Pods-CGPractice.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 53XMQ3SUNV;
 				INFOPLIST_FILE = CGPractice/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.liukai.CGPractice.CGPractice;
+				PRODUCT_BUNDLE_IDENTIFIER = com.liukai.iosRoad.CGPractice;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

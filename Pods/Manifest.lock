@@ -1,0 +1,22 @@
+PODS:
+  - Colours (5.13.0):
+    - Colours/ObjC (= 5.13.0)
+  - Colours/ObjC (5.13.0)
+  - Masonry (1.1.0)
+
+DEPENDENCIES:
+  - Colours
+  - Masonry
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Colours
+    - Masonry
+
+SPEC CHECKSUMS:
+  Colours: f24220c38f13deac88612667e9b4a7fb96b871d4
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+
+PODFILE CHECKSUM: 0afdef59339c6902fcbb0625924d80bd5c10b510
+
+COCOAPODS: 1.5.3
